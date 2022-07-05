@@ -103,6 +103,79 @@
     margin-left: 1rem;
 }
 
+/* section-1 */
+#section-1{
+    display: flex;
+}
+
+#sectional-division{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+   
+}
+
+#search-form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+}
+#input-group{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#search{
+    padding: 1rem 0 1rem 1rem;
+    width: 35rem;
+    background-color:#ebebeb;
+    border: 2px solid #ebebeb;
+    font-size:1.1rem;
+    
+    
+}
+
+#input-group{
+    width: 50rem;
+}
+#search::placeholder{
+    font-weight: 400;
+    color: rgb(112 112 112);
+}
+
+#search-btn{
+    padding: 1rem 2rem 1rem 2rem;
+    background-color:#00838c;
+    color: white;
+    font-weight: 500;
+    border: 2px solid #00838c;
+    font-size:1.1rem;
+}
+
+#pricing-div{
+    display: flex;
+    align-items: center;
+    padding: 2px 0 2px 0rem;
+}
+
+.organisation{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(112 112 112);
+    margin: 0.5rem 1rem;
+}
+
+
+
+.price span{
+  margin-left:4px;
+}
+
 
 
 /* hover effects */
